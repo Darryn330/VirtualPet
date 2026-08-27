@@ -1,11 +1,14 @@
 
 void setup(){
-  size(500,500);
+size(500,500);
 background(0,0,0);
 fill(75,0,0);
 rotate(314);
 ellipse(230,450,225,375);
 rotate(-314);
+ellipse(250,620,50,375);
+line(235,475,225,375);
+line(269,490,300,425);
 stroke(100,0,0);
 fill(100,0,0);
 ellipse(250,250,200,200);
@@ -27,7 +30,9 @@ stroke(0,0,0);
 line(250,270, 250,280);
 line(250,280, 240,285);
 line(250,280, 260,285);
-}
+fill(75,0,0);
+noStroke();
+ellipse(230,450,50,200);}
 void draw(){
   //more of your code here
 }
